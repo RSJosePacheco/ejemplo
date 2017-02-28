@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<presentacion xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="presentacion.xsd" >
+	<titulo>
+		Clase de XML
+	</titulo>
+	<diapositiva nivel="basico" >
+		<titulo>Breve historia del XML</titulo>
+		<contenido>Basado en SGML</contenido>
+		<contenido>Lenguaje de marcado extensible</contenido>
+		<contenido>Permite crear vocabularios</contenido>
+	</diapositiva>
+	<titulo>
+		Clase de XML
+	</titulo>
+	<diapositiva nivel="intermedio" >
+		<titulo>Transformaciones XSLT</titulo>
+		<contenido>Lenguaje de estilos</contenido>
+		<contenido>Genera documentos HTML</contenido>
+		<contenido>Puede mezclase con CSS</contenido>
+	</diapositiva>
+</presentacion>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bibliografia xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="bibliografia2.xsd" >
+	<libro>
+		<autor url="http://integracion.com" >Carlos T.</autor>
+		<autor url="http://editorialX.com" >Raymundo S.</autor>
+		<titulo>XML Schemas y DTDs</titulo>
+		<editorial>Addison-Wesley</editorial>
+		<anio>2002</anio>
+	</libro>
+	<libro>
+		<autor url="http://rodolfo.mx" >Rodolfo G.</autor>
+		<autor url="http://gonzalo.mx" >Gonzalo Y.</autor>
+		<titulo>Aplicaciones Web con JSP y MySQL</titulo>
+		<editorial>Adisson-Wesley</editorial>
+		<anio>2002</anio>
+	</libro>
+	<libro>
+		<autor url="http://rodolfo.mx" >Rodolfo G.</autor>
+		<autor url="http://gonzalo.mx" >Gonzalo Y.</autor>
+		<titulo>Aplicaciones Web con JSP y MySQL</titulo>
+		<editorial>Adisson-Wesley</editorial>
+		<anio>2002</anio>
+	</libro>
+</bibliografia>

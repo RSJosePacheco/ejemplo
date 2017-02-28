@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="bibliografia">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="libro" minOccurs="1" maxOccurs="4">
+					<xs:complexType>
+						<xs:sequence>
+							<!-- NODO AUTOR -->
+							<xs:element name="autor" minOccurs="1" maxOccurs="3">
+								<xs:complexType>
+									<xs:simpleContent>
+										<xs:extension base="xs:string">
+											<!-- <xs:attribute name="url" type="xs:string"/> -->
+											<xs:attribute name="url" type="xs:string" use="required" />
+										</xs:extension>
+									</xs:simpleContent>
+								</xs:complexType>
+							</xs:element>
+							<!-- NODO TITULO -->
+							<xs:element name="titulo" type="xs:string"/>
+							<!-- NODO EDITORIAL -->
+							<xs:element name="editorial" type="xs:string"/>
+							<!-- NODO AÑO -->
+							<xs:element name="anio" type="xs:string"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

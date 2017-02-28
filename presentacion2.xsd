@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<<<<<<< HEAD
+
+<xs:element name="presentacion">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="titulo" type="xs:string" />
+			<xs:complexType name="diapositiva" >
+				
+			</xs:complexType>
+		</xs:sequence>
+	</xs:complexType>
+</xs:element>
+=======
+<xs:element name="presentacion" type="TPresentacion" />
+<xs:complexType name="TPresentacion" >
+	<xs:sequence>
+		<xs:element name="titulo" type="xs:string" />
+		<xs:element name="diapositiva" type="Diapositiva" minOccurs="1" maxOccurs="unbounded"/>
+	</xs:sequence>
+</xs:complexType>
+
+<xs:complexType name="Diapositiva" >
+	<xs:sequence>
+		<xs:element name="titulo" type="xs:string"/>
+		<xs:element name="contenido" type="xs:string" minOccurs="2" maxOccurs="8" />	
+	</xs:sequence>
+		<xs:attribute name="nivel" type="xs:string" use="optional" />
+</xs:complexType>
+</xs:schema>
+>>>>>>> auxiliar
